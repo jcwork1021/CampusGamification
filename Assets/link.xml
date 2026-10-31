@@ -1,0 +1,21 @@
+<linker>
+	<!-- Existing Photon Settings -->
+	<assembly fullname="PhotonWebSocket">
+		<type fullname="ExitGames.Client.Photon.SocketWebTcp" preserve="all"/>
+		<type fullname="ExitGames.Client.Photon.SocketWebSecure" preserve="all"/>
+	</assembly>
+
+	<!-- PubNub Core -->
+	<assembly fullname="PubNubUnity" preserve="all"/>
+	<assembly fullname="PubNub" preserve="all"/>
+	<assembly fullname="PubnubApi" preserve="all"/>
+
+	<!-- System Networking & Marshaling (Fixes the WebGL signature error) -->
+	<assembly fullname="mscorlib" preserve="all">
+		<type fullname="System.Runtime.InteropServices.Marshal" preserve="all" />
+	</assembly>
+	<assembly fullname="System" preserve="all"/>
+	<assembly fullname="System.Core" preserve="all"/>
+	<assembly fullname="System.Net.Http" preserve="all"/>
+	<assembly fullname="Mono.Security" preserve="all"/>
+</linker>
