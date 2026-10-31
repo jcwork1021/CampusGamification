@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a426228888a27140ac965f1973888ee, type: 3}
+  m_Name: PDF_ReactAction2
+  m_EditorClassIdentifier: Assembly-CSharp::PDFReactAction2
+  _interactor: {fileID: 11400000, guid: e633c625bac9a424498bbc462d7549f2, type: 2}
+  _rememberMeSO: {fileID: 11400000, guid: cd81c09e08f23e94886fe98153341048, type: 2}
+  _interactableSO: {fileID: 11400000, guid: 8b9406bc885057a488f92b75f1894695, type: 2}
+  _interactablePDFSO: {fileID: 11400000, guid: 4a80da553ecb38c48a09c61f7bad49bb, type: 2}

@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &759965603604097705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2727003938652637527}
+  - component: {fileID: 2134775048256621735}
+  - component: {fileID: 7896651833038685716}
+  - component: {fileID: 7205182797068507768}
+  - component: {fileID: 4153417615525475573}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2727003938652637527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759965603604097705}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 632.8471, y: 551.7333, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2134775048256621735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759965603604097705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12af8801bfab05a43a93e62245579757, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  _rememberMeSO: {fileID: 11400000, guid: cd81c09e08f23e94886fe98153341048, type: 2}
+  _gameManagerSO: {fileID: 11400000, guid: bd7b6222af19c48449e0130f2c239ce4, type: 2}
+  _receiverManagerRefSO: {fileID: 11400000, guid: 2b626ce3ab2323f4cb77a5f3b781774a, type: 2}
+  _chatManagerSO: {fileID: 11400000, guid: d949c3aa08b7fa84b87badc8495305dc, type: 2}
+  _playerManagerSO: {fileID: 11400000, guid: b9c03a7faf9302542ae56dad032582ce, type: 2}
+  _interactableSO: {fileID: 11400000, guid: 8b9406bc885057a488f92b75f1894695, type: 2}
+  _interactableChairSO: {fileID: 11400000, guid: af920c785a697044c9c9f7501d4774e8, type: 2}
+  _gameCamera: {fileID: 0}
+  _cameraDitherOccluder: {fileID: 0}
+  _thirdPersonCinemachine: {fileID: 0}
+  _playerControlCanvas: {fileID: 0}
+  _mainControllerPanel: {fileID: 0}
+  _movementJoystick: {fileID: 0}
+  _lookJoystick: {fileID: 0}
+  _micImg: {fileID: 0}
+  statusTxt: {fileID: 0}
+  _playerListScrollView: {fileID: 0}
+  _playerListParent: {fileID: 0}
+  _maximizePlayerListBtn: {fileID: 0}
+  _putHandDownBtn: {fileID: 0}
+  _chairViewerFPPCanvas: {fileID: 0}
+  _maleAvatar: {fileID: 8189700417227611279, guid: 8dc007c691fdd4a4fa5e9e1a8b88ba76, type: 3}
+  _femaleAvatar: {fileID: 710193529399231585, guid: 79d38767a1282524aa3fccb230ccfb75, type: 3}
+  _onPlayerSpawned: {fileID: 11400000, guid: ee2762b6c4c2b7b458ddfd3fb8b1868c, type: 2}
+  _onPlayerInstantiated:
+    m_PersistentCalls:
+      m_Calls: []
+  _lobbySceneName: Lobby
+  _muteSprite: {fileID: 21300000, guid: 2632ea2e0ce590145b828a37bfbaf5db, type: 3}
+  _unMuteSprite: {fileID: 21300000, guid: 1a6698da760e35d4587b3b98f8df4e04, type: 3}
+  _playerListButtonPrefab: {fileID: 7128335918407160344, guid: 9891917fd64ed6045a1724dd05e1ec29, type: 3}
+  _localPlayerNetworkObject: {fileID: 0}
+  _networkedPlayerList: []
+  sceneLoadedCounter: 0
+  _webGLBackgroundTimeoutSeconds: 90
+--- !u!114 &7896651833038685716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759965603604097705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81c5bd2ad297ce1439f07137c8c882f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AdditiveLevelLoader
+  _rememberMeSO: {fileID: 11400000, guid: cd81c09e08f23e94886fe98153341048, type: 2}
+  _additiveLevelLoaderSO: {fileID: 11400000, guid: 3d1785a86a83ba54db1e2a637baec1ce, type: 2}
+  completePath: 
+  sceneChosen: 
+  onAdditiveSceneLoadedSuccesfully:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &7205182797068507768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759965603604097705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1552182283, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fusion.Runtime.dll::Fusion.NetworkObject
+  SortKey: 3882098350
+  SendPriority: 1
+  EnableInterpolation: 0
+  Flags: 131074
+  NestedObjects: []
+  NetworkedBehaviours:
+  - {fileID: 2134775048256621735}
+  - {fileID: 7896651833038685716}
+  ForceRemoteRenderTimeframe: 0
+--- !u!114 &4153417615525475573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759965603604097705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5ba84d6055b6b428f6459c96476e8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EmoteGridUI
+  _emoteLibrarySO: {fileID: 11400000, guid: 6c23fc9750d2ed848aa68a4f97e99c52, type: 2}
+  _playerEmoteSO: {fileID: 11400000, guid: 04a1fd976cb3c5f47855cbb36987a629, type: 2}
+  _emoteBtn: {fileID: 0}
+  _emotePanel: {fileID: 0}
+  _recentContent: {fileID: 0}
+  _emojiContent: {fileID: 0}
+  _coolDownPanel: {fileID: 0}
+  _emoteBtnPrefab: {fileID: 8865764883670762675, guid: d8bde3c967886684c952cdcc21693970, type: 3}

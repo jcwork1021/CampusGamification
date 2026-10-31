@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffec40d9caaf4334289d5580def42b11, type: 3}
+  m_Name: Whiteboard_ReactAction
+  m_EditorClassIdentifier: Assembly-CSharp::WhiteboardReactAction
+  _interactor: {fileID: 11400000, guid: e633c625bac9a424498bbc462d7549f2, type: 2}
+  _interactableWhiteboardSO: {fileID: 11400000, guid: 37cd2ff77b543be479d6b4128287dbba, type: 2}

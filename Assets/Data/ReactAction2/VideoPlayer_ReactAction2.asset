@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7805ba096624b9488ecb11a0d5e700f, type: 3}
+  m_Name: VideoPlayer_ReactAction2
+  m_EditorClassIdentifier: Assembly-CSharp::VideoPlayerReactAction2
+  _interactor: {fileID: 11400000, guid: e633c625bac9a424498bbc462d7549f2, type: 2}
+  _rememberMeSO: {fileID: 11400000, guid: cd81c09e08f23e94886fe98153341048, type: 2}
+  _interactableSO: {fileID: 11400000, guid: 8b9406bc885057a488f92b75f1894695, type: 2}
+  _interactableVideoPlayerSO: {fileID: 11400000, guid: 3a22a7648f4869241a540c10194d49a4, type: 2}
